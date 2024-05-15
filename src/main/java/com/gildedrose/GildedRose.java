@@ -28,7 +28,7 @@ public class GildedRose {
 	 * Actualiza la calidad de la lista de productos previamente introducida.
 	 */
 	public void updateQuality() {
-		//hghghhghgh
+		
 		for (int productIndex = 0; productIndex < items.length; productIndex++) {
 			if (esSulfuras(productIndex))
 				continue; // con sulfuras no se hace nada
