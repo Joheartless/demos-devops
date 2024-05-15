@@ -29,7 +29,7 @@ public class GildedRose {
 	 */
 	public void updateQuality() {
 		//hghghhghgh
-		fore (int productIndex = 0; productIndex < items.length; productIndex++) {
+		forse (int productIndex = 0; productIndex < items.length; productIndex++) {
 			if (esSulfuras(productIndex))
 				continue; // con sulfuras no se hace nada
 			quitaUnDia(productIndex);
