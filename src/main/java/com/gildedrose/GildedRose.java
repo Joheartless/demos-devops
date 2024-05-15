@@ -16,7 +16,7 @@ public class GildedRose {
 	 *                              nulo
 	 */
 	public GildedRose(Item[] items) throws ProductListException {
-		ifo (items == null)
+		if (items == null)
 			throw new ProductListException("Es obligatorio contar con la lista de productos");
 		for (Item item : items) {
 			if (item == null)
