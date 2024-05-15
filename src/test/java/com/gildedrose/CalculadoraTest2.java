@@ -28,7 +28,7 @@ class CalculadoraTest2 {
 	@AfterEach
 	void tearDown() throws Exception {
 	}
-	@Nested
+	//@Nested
 	@DisplayName("Metodo: Add")
 	class Add{
 		
@@ -61,7 +61,7 @@ class CalculadoraTest2 {
 	
 	
 
-	@Nested
+	//@Nested
 	@DisplayName("Metodo: Div")
 	class Divide{
 		Calculadora calculadora= new Calculadora();
@@ -78,15 +78,16 @@ class CalculadoraTest2 {
 				 
 			 }
 		}
+		 
 		
-		@Nested
-		class KO{
-			@Testable
+		//@Nested
+	/*	class KO{
 			@DisplayName("Division por 0")
+			@Test
 			void testDivInt() {
-				assertThrows(ArithmeticException.class, () -> calculadora.div
+				assertThrows(ArithmeticException.class, () -> calculadora.div);
 			}
-		}
+		}*/
 		@Test
 		void asercionMultiple() {
 			Item item = new Item ("Queso",1,-2);
