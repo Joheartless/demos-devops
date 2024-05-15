@@ -12,6 +12,7 @@ public class GildedRose {
 	 * @param items Lista de productos que no puede se nula ni contener productos
 	 *              nulos
 	 * @throws ProductListException Si la lista es nula o uno se sus productos es
+	 *    
 	 *                              nulo
 	 */
 	public GildedRose(Item[] items) throws ProductListException {
